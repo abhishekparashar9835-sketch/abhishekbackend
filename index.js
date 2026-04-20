@@ -13,7 +13,7 @@ app.get('/youtube',(req,res)=>{
     res.send("youtube.com")
 })
 app.get('/abhishek',(req,res) => {
-    res.send("hello I am Abhishek Parashar");
+    res.send("hello I am Abhishek Parashar B.tech");
 })
 app.listen(process.env.PORT,()=>{
     console.log(`example app listening on port ${port} `)
